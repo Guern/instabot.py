@@ -14,7 +14,7 @@ from unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
     login="guern.me",
-    password="i000Pass",
+    password="i000Pass-",
     like_per_day=1000,
     comments_per_day=0,
     tag_list=['follow4follow', 'f4f', 'cute'],
@@ -26,7 +26,7 @@ bot = InstaBot(
     unfollow_per_day=500,
     unfollow_break_min=15,
     unfollow_break_max=30,
-    log_mod=1,
+    log_mod=0,
     proxy='',
     # List of list of words, each of which will be used to generate comment
     # For example: "This shot feels wow!"
