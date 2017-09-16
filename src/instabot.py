@@ -840,6 +840,7 @@ class InstaBot:
                 self.logger.addHandler(self.hdrl)
             # Log to log file.
             try:
+                print(log_text)
                 self.logger.info(log_text)
             except UnicodeEncodeError:
                 print("Your text has unicode problem!")
